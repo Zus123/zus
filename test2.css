@@ -130,9 +130,10 @@ body {
 .spol {
     width: 100%;
     height: 330px;
-    background: red;
+    /* background: red; */
     display: flex;
     justify-content: flex-end;
+    background-image: url(images/spoiler_2.png) ;
 
 }
 
@@ -427,7 +428,7 @@ body {
 }
 
 .set_hd {
-    width: 45px;
+    width: 40px;
     height: 30px;
     /* background: blue; */
     border-bottom: 2px solid #2fc267;
@@ -440,7 +441,7 @@ body {
 }
 
 .set_data {
-    width: 80px;
+    width: 60px;
     height: 30px;
     /* background: blue; */
     border-bottom: 2px solid #2fc267;
@@ -599,7 +600,7 @@ margin-top: 180px ;
     }
     .film_all {
         grid-template-columns: repeat(2, 1fr);
-        /* transform: scale(0.9); */
+        transform: scale(0.8);
     }
 
     .hed {
@@ -629,7 +630,7 @@ margin-top: 180px ;
     }
     .film_all {
         grid-template-columns: repeat(1, 1fr);
-        /* transform: scale(0.9); */
+        transform: scale(0.5);
     }
 
     .hed {
