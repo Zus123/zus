@@ -591,7 +591,7 @@ margin-top: 180px ;
 
 }
 
-/* the tablet ??? */
+/* the tablet */
 @media screen and (max-width: 720px) {
     .bod_2 {
         width: 540px;
@@ -615,14 +615,41 @@ margin-top: 180px ;
         height: 55px;
     }
 
-
+    .menu2 {
+        margin-left: -90px;
+        /* margin-top: 10px ; */
+    }
 }
 
+/* phone */
+@media screen and (max-width: 540px) {
+    .bod_2 {
+        width: 100%;
+        
+    }
+    .film_all {
+        grid-template-columns: repeat(1, 1fr);
+        /* transform: scale(0.9); */
+    }
 
+    .hed {
+        margin-top: 10px;
+    }
 
+    .t3 {
+        display: none;
+    }
 
+    .logo_img {
+        width: 100px; 
+        height: 55px;
+    }
 
-
+    .menu2 {
+        margin-left: -90px;
+        /* margin-top: 10px ; */
+    }
+}
 
 
 
