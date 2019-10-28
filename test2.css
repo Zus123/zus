@@ -556,7 +556,7 @@ margin-top: 180px ;
 
 
 /* small screen */
-@media screen and (max-width: 1199px) {
+@media only screen and (max-width: 1140px) {
     .bod_2 {
         width: 960px;
     }
@@ -566,7 +566,7 @@ margin-top: 180px ;
 }
 
 /* laptop */
-@media screen and (max-width: 991px) {
+@media only screen and (max-width: 960px) {
     .bod_2 {
         width: 720px;
     }
@@ -576,7 +576,7 @@ margin-top: 180px ;
 }
 
 /* the tablet */
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .bod_2 {
         width: 540px;
     }
@@ -590,7 +590,7 @@ margin-top: 180px ;
 
     
     }
-} */
+}
 
 
 
