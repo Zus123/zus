@@ -585,39 +585,41 @@ margin-top: 180px ;
     .logo_img {
         width: 100px; 
         height: 55px;
-
-
     }
 
 
 
 }
 
-/* the tablet */
-/* @media screen and (max-width: 767px) {
+/* the tablet ??? */
+@media screen and (max-width: 720px) {
     .bod_2 {
         width: 540px;
+        
     }
     .film_all {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        /* transform: scale(0.9); */
+    }
+
+    .hed {
+        margin-top: 10px;
+    }
+
+    .t3 {
+        display: none;
     }
 
     .logo_img {
-        width: 50px; 
-        
-
-    
+        width: 100px; 
+        height: 55px;
     }
-} */
+
+
+}
 
 
 
-/* .logo_img {
-    width: 220px; 
-    display: flex;
-    flex-shrink: 0;
-
-} */
 
 
 
