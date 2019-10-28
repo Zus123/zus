@@ -575,22 +575,7 @@ margin-top: 180px ;
     }
 }
 
-/* the tablet */
-@media screen and (max-width: 767px) {
-    .bod_2 {
-        width: 540px;
-    }
-    .film_all {
-        grid-template-columns: repeat(3, 1fr);
-    }
 
-    .logo_img {
-        width: 50px; 
-        
-
-    
-    }
-}
 
 
 
