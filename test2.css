@@ -41,7 +41,7 @@ body {
     /* align-items: flex-end;  */
     border-radius: 3px ;
     /* flex-shrink: 0; */
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -62,15 +62,12 @@ body {
 
 
 
-.t2 {
+/* .t2 {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    box-sizing: border-box;
-    
-    
-    
-}
+    box-sizing: border-box;   
+} */
 
 .t3 {
     display: flex;
@@ -411,8 +408,8 @@ body {
 .logo_img {
     width: 220px; 
     /* height: 120px; */
-    display: flex;
-    flex-shrink: 0;
+    /* display: flex;
+    flex-shrink: 0; */
 
 }
 
@@ -492,7 +489,7 @@ body {
 }
 
 .menu2 {
-    width: 450px; 
+    width: 300px; 
     height: 175px;
     background: #222126;
     border-radius: 2px;
@@ -569,17 +566,57 @@ margin-top: 180px ;
 @media only screen and (max-width: 960px) {
     .bod_2 {
         width: 720px;
+        transform: scale(0.9);
+    }
+    .film_all {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .hed {
+        margin-top: 10px;
+    }
+
+    .t3 {
+        display: none;
+    }
+
+    .logo_img {
+        width: 100px; 
+        height: 55px;
+
+
+    }
+
+
+
+}
+
+/* the tablet */
+/* @media screen and (max-width: 767px) {
+    .bod_2 {
+        width: 540px;
     }
     .film_all {
         grid-template-columns: repeat(3, 1fr);
     }
-}
+
+    .logo_img {
+        width: 50px; 
+        
+
+    
+    }
+} */
 
 
 
+/* .logo_img {
+    width: 220px; 
+    display: flex;
+    flex-shrink: 0;
 
-
-
+} */
 
 
 
