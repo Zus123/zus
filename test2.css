@@ -19,7 +19,8 @@ font-family: Montserrat-Medium;
 
 .bod_2 {
     margin: 0 auto;
-    width: 1268px;
+    max-width: 1368px;
+    padding: 0 50px 0 50px;
 }
 
 a {
@@ -551,13 +552,18 @@ margin-top: 180px ;
 
 
 
+@media  screen and (max-width: 1270px) {
 
+    .film_all {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
 
 
 /* small screen */
 @media  screen and (max-width: 1140px) {
     .bod_2 {
-        width: 960px;
+        max-width: 960px;
     }
     .film_all {
         grid-template-columns: repeat(4, 1fr);
@@ -567,8 +573,9 @@ margin-top: 180px ;
 /* laptop */
 @media  screen and (max-width: 960px) {
     .bod_2 {
-        width: 720px;
+        max-width: 720px;
         /* transform: scale(0.9); */
+        padding: 0 10px 0 10px;
     }
     .film_all {
         grid-template-columns: repeat(3, 1fr);
@@ -595,7 +602,7 @@ margin-top: 180px ;
 /* the tablet */
 @media screen and (max-width: 720px) {
     .bod_2 {
-        width: 540px;
+        max-width: 540px;
         
     }
     .film_all {
@@ -625,7 +632,7 @@ margin-top: 180px ;
 /* phone */
 @media screen and (max-width: 540px) {
     .bod_2 {
-        width: 100%;
+        max-width: 100%;
         
     }
     .film_all {
@@ -633,9 +640,9 @@ margin-top: 180px ;
         
     }
 
-    .film {
+    /* .film {
         transform: scale(0.5);
-    }
+    } */
 
     .hed {
         margin-top: 10px;
@@ -655,8 +662,6 @@ margin-top: 180px ;
         /* margin-top: 10px ; */
     }
 }
-
-
 
 
 
