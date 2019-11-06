@@ -130,13 +130,20 @@ body {
 
 .spol {
     width: 100%;
-    height: 330px;
+    /* height: 330px; */
     /* background: red; */
     display: flex;
     justify-content: flex-end;
-    background-image: url(images/spoiler_2.png) ;
+    /* background-image: url(images/spoiler_2.png) ; */
 
 }
+
+.spol img{
+    width:100%
+    
+}
+
+
 
 .sp_hd {
     width: 72px;
@@ -145,14 +152,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px;
-
+    /* margin: 5px; */
+    position: absolute;
 }
 
 .sp_hd_2 {
     color: #9a96ab;
     font-size: 17px;
-
 }
 
 .sp_nm {
@@ -558,7 +564,7 @@ margin-top: 180px ;
         grid-template-columns: repeat(4, 1fr);
     }
     .spol {
-        height: 284px;
+        /* height: 284px; */
     }
 }
 
@@ -566,21 +572,24 @@ margin-top: 180px ;
 /* small screen */
 @media  screen and (max-width: 1140px) {
     .bod_2 {
-        max-width: 960px;
+        /* max-width: 960px; */
+        max-width: 1100px;
     }
     .film_all {
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 30px  15px;
     }
     .spol {
-        height: 270px;
+        /* height: 270px; */
     }
 }
 
 /* laptop */
 @media  screen and (max-width: 960px) {
     .bod_2 {
-        max-width: 720px;
+        /* max-width: 720px; */
+        max-width: 900px;
+
         /* transform: scale(0.9); */
         padding: 0 10px 0 10px;
     }
@@ -611,7 +620,7 @@ margin-top: 180px ;
 /* the tablet */
 @media screen and (max-width: 720px) {
     .bod_2 {
-        max-width: 540px;
+        /* max-width: 540px; */
         
     }
     .film_all {
