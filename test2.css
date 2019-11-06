@@ -118,7 +118,7 @@ body {
 .film_all {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 40px  32px;
     /* margin-top: 50px; */
     
@@ -561,7 +561,7 @@ margin-top: 180px ;
 @media  screen and (max-width: 1270px) {
 
     .film_all {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
     .spol {
         /* height: 284px; */
@@ -581,6 +581,23 @@ margin-top: 180px ;
     }
     .spol {
         /* height: 270px; */
+    }
+    .sp_hd {
+        width: 55px;
+        height: 35px;
+    }
+    
+    .sp_hd_2 {
+        font-size: 14px;
+    }
+    .sp_nm_1 {
+        font-size: 14px;
+    }
+    .sp_nm_2 {
+        font-size: 12px;
+    }
+    .sp_nm_3 {
+        font-size: 10px;
     }
 }
 
@@ -683,6 +700,14 @@ margin-top: 180px ;
     .menu2 {
         margin-left: -90px;
         /* margin-top: 10px ; */
+    }
+    .sp_hd {
+        width: 35px;
+        height: 25px;
+    }
+    
+    .sp_hd_2 {
+        font-size: 10px;
     }
 }
 
